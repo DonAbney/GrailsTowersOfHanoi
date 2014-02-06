@@ -1,7 +1,5 @@
-<table>
+<ul>
     <g:each var="peg" in="${pegs}" status="pegIndex">
-    <tr>
-        <td>Peg</td>
-    </tr>
+    <li>Peg ${pegIndex}</li>
     </g:each>
-</table>
+</ul>
