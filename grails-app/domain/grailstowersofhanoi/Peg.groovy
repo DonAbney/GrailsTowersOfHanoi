@@ -1,7 +1,7 @@
 package grailstowersofhanoi
 
 class Peg {
+	
+  List rings	
 
-    static constraints = {
-    }
 }

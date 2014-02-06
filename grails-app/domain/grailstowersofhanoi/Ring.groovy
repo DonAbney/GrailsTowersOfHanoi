@@ -2,6 +2,6 @@ package grailstowersofhanoi
 
 class Ring {
 
-    static constraints = {
-    }
+  Integer id
+
 }
