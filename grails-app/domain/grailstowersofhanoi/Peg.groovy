@@ -2,6 +2,10 @@ package grailstowersofhanoi
 
 class Peg {
 	
-  List rings	
+  List rings
+
+  def Peg(rings) {
+    this.rings = rings
+  }	
 
 }
