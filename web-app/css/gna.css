@@ -17,9 +17,34 @@ ul {
 li {
 	margin: 0 80px;
 	height: 250px;
+	width: 50px;
 	background: black;
 	display: inline-block;
 	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+li.ring {
+	margin: 2px 0;
+	height: 30px;
+	float: right;
+	border-radius: 5px;
+}
+
+.ring0 {
+	width: 100px;
+	background: blue;
+}
+
+.ring1 {
+	width: 130px;
+	background: green;
+}
+
+.ring2 {
+	width: 160px;
+	background: red;
 }
 
 #board {
