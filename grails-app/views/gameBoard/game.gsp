@@ -5,6 +5,7 @@
     </head>
     <body>
         <h1>Welcome to Grails and Ale Towers of Hanoi</h1>
+        <h2>Drag and drop disks to reposition</h2>
         <div id="board">
         <g:render template="board"/>
         </div>
