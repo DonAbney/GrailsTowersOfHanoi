@@ -1,11 +1,9 @@
-<ul>
-    <g:each var="tower" in="${towers}" status="towerIndex">
-    <li>T${towerIndex}
-    	<ul>
-    		<g:each var="ring" in="${tower.rings}" status="ringIndex">
-    		<li class="ring ring${ringIndex}">R${ringIndex}</li>
-    		</g:each>
-    	</ul>
-    </li>
-    </g:each>
-</ul>
+<g:each var="tower" in="${towers}" status="towerIndex">
+	<div class="tower">	
+		<ul>
+			<g:each var="ring" in="${tower.rings}" status="ringIndex">
+				<li class="ring ring${ring.id}"></li>
+			</g:each>
+		</ul>
+	</div>
+</g:each>
