@@ -1,10 +1,10 @@
 package grailstowersofhanoi
 
-class Peg {
+class Tower {
 	
   List rings
 
-  def Peg(rings) {
+  def Tower(rings) {
     this.rings = rings
   }	
   
